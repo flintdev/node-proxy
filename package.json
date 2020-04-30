@@ -1,0 +1,33 @@
+{
+  "name": "@flintdev/node-server",
+  "version": "0.0.1",
+  "description": "server-side proxy server based on node.js to forward origin requests from browser side",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flintdev/node-server.git"
+  },
+  "author": "Naitian Liu",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/flintdev/node-server/issues"
+  },
+  "homepage": "https://github.com/flintdev/node-server#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "atob": "^2.1.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.6",
+    "@types/request": "^2.48.4"
+  }
+}
